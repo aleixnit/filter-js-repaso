@@ -7,7 +7,7 @@ console.log("Números pares: ", evenNumbers); // Resultado esperado: [2, 4, 6, 8
 // Ejercicio 2: Filtrar cadenas de texto que contengan la letra guardada en la variable 'letter'
 const words = ["apple", "banana", "grape", "orange", "kiwi"];
 const letter = "a";
-const filteredWords = words.filter((word) => word);
+const filteredWords = words.filter((word) => word.includes(letter));
 console.log(
   "Palabras que contengan la letra de la variable letter: ",
   filteredWords
@@ -16,7 +16,7 @@ console.log(
 // Ejercicio 2b: Filtrar cadenas de texto que NO contengan la letra guardada en la variable 'letter'
 const words_2 = ["apple", "banana", "grape", "orange", "kiwi"];
 const letter_2 = "a";
-const filteredWords_2 = words.filter((word) => word);
+const filteredWords_2 = words_2.filter((word) => word);
 console.log(
   "Palabras que NO contengan la letra contenido en la variable letter: ",
   filteredWords_2
