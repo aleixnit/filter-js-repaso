@@ -11,7 +11,7 @@ const filteredWords = words.filter((word) => word);
 console.log(
   "Palabras que contengan la letra de la variable letter: ",
   filteredWords
-); // Resultado esperado: ['apple', 'banana', 'grape']
+); // Resultado esperado: ['apple', 'banana', 'grape', 'orange']
 
 // Ejercicio 2b: Filtrar cadenas de texto que NO contengan la letra guardada en la variable 'letter'
 const words_2 = ["apple", "banana", "grape", "orange", "kiwi"];
